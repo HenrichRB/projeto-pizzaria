@@ -3,6 +3,11 @@
     font-family: 'Sora', sans-serif;
 }
 
-li{
-    text-decoration: none;
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
 }
+
