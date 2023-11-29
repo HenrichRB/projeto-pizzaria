@@ -3,13 +3,27 @@
     font-family: 'Sora', sans-serif;
 }
 
-ul{
+ul, a{
     list-style-type: none;
     display: flex;
     align-items: center;
     gap: 16px;
     justify-content: center;
+    background-color: blue;
 }
 
+.miras{
+    align-items: center;
+    width: 20%;
+}
+.promo > img{
+    width: 50%;
+}
 
-  
+.promo{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
