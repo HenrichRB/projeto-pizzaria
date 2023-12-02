@@ -9,7 +9,9 @@ ul, a{
     align-items: center;
     gap: 16px;
     justify-content: center;
-    background-color: blue;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px;
 }
 
 .miras{
@@ -27,3 +29,9 @@ ul, a{
     flex-direction: column;
     position: relative;
 }
+
+.cabecalho{
+    margin-top: -32px;
+}
+
+
