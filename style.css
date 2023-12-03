@@ -27,7 +27,20 @@ header {
     justify-content: center;
 }
 
+<<<<<<< Updated upstream
 nav {
+=======
+.miras{
+    align-items: center;
+    width: 20%;
+}
+.promo > img{
+    width: 45%;
+}
+
+.promo{
+    text-align: center;
+>>>>>>> Stashed changes
     display: flex;
     align-items: end;
     margin-bottom: 3px;
