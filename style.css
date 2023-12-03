@@ -1,12 +1,12 @@
 *{
-    margin: 0;
-    padding: 0;
+    /* margin: 0;
+    padding: 0; */
     font-family: 'Sora', sans-serif;
     /* background-color: #e8e8e8; */
 }
 
 body {
-    width: 75%;
+    /* width: 75%; */
     margin: auto;
     background-color: #F6F6F6;
 }
@@ -15,6 +15,7 @@ body {
     /* background-color: black; */
     background-image: url(imagens/bg-tezt.jpg);
     background-position: bottom;
+    margin: 0px 300px;
     
 }
 
@@ -26,7 +27,6 @@ body {
     margin: auto;
 }
 
-
 header {
     display: flex;
     width: 1200px;
@@ -34,18 +34,11 @@ header {
     justify-content: center;
 }
 
-nav {
-    display: flex;
-    align-items: end;
-    margin-bottom: 3px;
-}
-
 ul {
     list-style: none;
-    font-size: 1.3rem;
+    font-size: 24px;
     display: flex;
     gap: 20px;
-
 }
 
 a {
@@ -65,7 +58,7 @@ h1 {
 }
 
 .promo1 > img {
-    width: 65%;
+    width: 985px;
 }
 
 .promo1{
