@@ -18,9 +18,9 @@ header {
 
 .logo {
     /* background-color: black; */
-    background-image: url(imagens/bg-tezt.jpg);
+    background-image: url(imagens/bg_2.jpg);
     background-position: bottom;
-    margin: 0px 300px;
+    margin: 0px -8px;
     
 }
 
