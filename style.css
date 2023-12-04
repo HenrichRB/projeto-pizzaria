@@ -8,7 +8,11 @@
 body {
     /* width: 75%; */
     /* margin: auto; */
-    background-color: #EFF6E0;
+    /* background-repeat: no-repeat; */
+    background-image: url(imagens/pizzablur.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: auto;
 }
 
 header {
@@ -42,6 +46,11 @@ main {
 h1 {
     text-align: center;
     padding: 15px 0px;
+    color: white;
+    background-color: #000000;
+    margin: 10px 580px;
+    padding: 16px;
+    
 }
 
 .promo1 > a > img {
@@ -139,14 +148,60 @@ footer p {
     vertical-align: middle;
     transition: color 0.3s;
     text-decoration: none;
+    background-color: #000000;
+    padding: 10px;
+    margin: 16px;
 
 }
 
 .back a:visited{
-    color: #000000;
+    color: #1b1b1b;
 }
 
 .back a:hover{
     color: rgb(255, 0, 0)
 }
+  
+/* body ::before{
+    
+    content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(imagens/tste.jpg);
+  background-size: cover;
+  filter: blur(0px);
+  z-index: -100;
+    
+} */
+
+.titulo h1{
+    color: white;
+    background-color: #000000;
+    margin: 10px 580px;
+    padding: 16px;
+}
+
+.ceo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Empilha os itens verticalmente */
+  text-align: center;
+}
+
+.ceo img {
+  width: 25%;
+  border-radius: 90%;
+  border: solid 3px #000000;
+  margin: 0 10px;
+}
+
+.ceo h2 {
+  margin: 10px 0;
+}
+
+  
   
