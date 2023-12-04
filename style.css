@@ -8,7 +8,12 @@
 body {
     /* width: 75%; */
     /* margin: auto; */
-    background-color: #E6E8E6;
+    background-color: #EFF6E0;
+}
+
+header {
+    position: sticky;
+    top: 0;
 }
 
 .logo {
