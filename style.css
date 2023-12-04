@@ -44,7 +44,7 @@ h1 {
     padding: 15px 0px;
 }
 
-.promo1 > img {
+.promo1 > a > img {
     width: 970px;
 }
 
