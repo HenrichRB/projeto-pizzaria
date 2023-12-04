@@ -86,6 +86,7 @@ nav a:hover{
 footer{
     background-color: #dbdbdb;
     color: #53565a;
+    padding-top: 15px;
 }
 
 footer p h1{
@@ -93,6 +94,7 @@ footer p h1{
 }
 
 footer p {
+    padding-top: 15px;
     margin: 0px 300px;
     text-justify:distribute;
 
