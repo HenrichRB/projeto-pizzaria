@@ -122,3 +122,31 @@ footer p {
 .redesocial a:hover{
     color: rgb(0, 117, 196);
 }
+
+.manutencao{
+    text-align: center;
+}
+.manutencao img{
+    width: 70%;
+}
+
+.back {
+    text-align: center;
+}
+  
+.back a {
+    display: inline-block;
+    vertical-align: middle;
+    transition: color 0.3s;
+    text-decoration: none;
+
+}
+
+.back a:visited{
+    color: #000000;
+}
+
+.back a:hover{
+    color: rgb(255, 0, 0)
+}
+  
