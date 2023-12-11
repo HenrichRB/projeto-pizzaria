@@ -90,24 +90,6 @@ nav a:hover{
     color: rgb(0, 117, 196);
 }
 
-footer{
-    background-color: #dbdbdb;
-    color: #53565a;
-    padding-top: 15px;
-}
-
-footer p h1{
-    text-align: center;
-}
-
-footer p {
-    padding-top: 15px;
-    width: 100%;
-    max-width: 970px;
-    margin: 0px auto;
-    text-justify:distribute;
-
-}
 
 .redesocial{
     text-align: center;
@@ -116,7 +98,24 @@ footer p {
     gap: 16px;
     font-size: 1.5rem;
     justify-content:center;
+    
+}
+footer{
+    background-color: #dbdbdb;
+    color: #53565a;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 
+}
+
+footer p {
+    text-align: justify;
+    padding-top: 15px;
+    width: 100%;
+    max-width: 970px;
+    margin: 0px auto;
 }
 
 .redesocial a{
