@@ -2,17 +2,13 @@
     margin: 0;
     padding: 0;
     font-family: 'Sora', sans-serif;
-    /* background-color: #e8e8e8; */
 }
 
 body {
-    /* width: 75%; */
-    /* margin: auto; */
-    /* background-repeat: no-repeat; */
     background-image: url(imagens/pizzablur.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    height: auto;
+    /* height: auto; */
 }
 
 header {
@@ -21,7 +17,6 @@ header {
 }
 
 .logo {
-    /* background-color: black; */
     background-image: url(imagens/bg_2.jpg);
     background-position: bottom;
 
@@ -29,7 +24,8 @@ header {
 }
 
 .logo > img{
-    width: 50%;
+    width: 100%;
+    max-width: 850px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,23 +34,25 @@ header {
 }
 
 main {
-    /* background-color: rgba(0, 0, 0, 0.76); */
     color: black;
 
 }
 
 h1 {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
     text-align: center;
     padding: 15px 0px;
     color: white;
     background-color: #000000;
-    margin: 10px 580px;
     padding: 16px;
     
 }
 
 .promo1 > a > img {
-    width: 970px;
+    width: 100%;
+    max-width: 970px;
 }
 
 .promo1{
@@ -104,7 +102,9 @@ footer p h1{
 
 footer p {
     padding-top: 15px;
-    margin: 0px 300px;
+    width: 100%;
+    max-width: 970px;
+    margin: 0px auto;
     text-justify:distribute;
 
 }
@@ -115,7 +115,7 @@ footer p {
     flex-direction: row;
     gap: 16px;
     font-size: 1.5rem;
-    margin-left: 300px ;
+    justify-content:center;
 
 }
 
@@ -161,26 +161,10 @@ footer p {
 .back a:hover{
     color: rgb(255, 0, 0)
 }
-  
-/* body ::before{
-    
-    content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-image: url(imagens/tste.jpg);
-  background-size: cover;
-  filter: blur(0px);
-  z-index: -100;
-    
-} */
 
 .titulo h1{
     color: white;
     background-color: #000000;
-    margin: 10px 580px;
     padding: 16px;
 }
 
@@ -188,7 +172,7 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; /* Empilha os itens verticalmente */
+  flex-direction: column;
   text-align: center;
 }
 
